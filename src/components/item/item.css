@@ -1,0 +1,28 @@
+footer .item {
+    display: flex!important;
+    justify-content: space-between;
+    align-self: flex-start;
+    flex-shrink: 0;
+    padding: 20px;
+    flex-basis: 48%;
+}
+
+footer .item .person-image {
+    flex-basis: 45%;
+    height: 100%;
+}
+
+footer .item .person-image img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+footer .item .person-info ul {
+    padding: 0;
+}
+
+footer .item .person-info {
+    flex-basis: 45%;
+}
+

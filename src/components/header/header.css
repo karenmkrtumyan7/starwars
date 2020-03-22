@@ -1,0 +1,47 @@
+header {
+    display: flex!important;
+    align-items: center;
+    height: 15vh;
+    justify-content: center;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 30px;
+    display: flex;
+    flex-basis: 30%;
+}
+
+header ul li:nth-child(2) {
+    margin: 0 20px;
+}
+
+header h1 {
+    flex-basis: 50%;
+    font-size: 50px;
+}
+
+header h1 a {
+    color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        height: 20vh;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header ul {
+        font-size: 20px;
+    }
+
+    header ul li:nth-child(2) {
+        margin: 0 10px;
+    }
+
+}
